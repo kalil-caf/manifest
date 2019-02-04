@@ -718,4 +718,7 @@
 
   <!-- Misc -->
   <include name="misc.xml" />
+
+  <!-- Remove -->
+  <include name="remove.xml" />
 </manifest>
