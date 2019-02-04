@@ -8,43 +8,43 @@
 
   <default remote="caf"/>
 
-  <project groups="mirror-aosp-pie-platform-release,pdk,pdk-cw-fs" name="device/common" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="device/generic/arm64" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="device/generic/armv7-a-neon" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="device/generic/car" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="device/generic/common" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="device/generic/goldfish" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="device/generic/goldfish-opengl" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="device/generic/mini-emulator-arm64" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="device/generic/mini-emulator-armv7-a-neon" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="device/generic/mini-emulator-x86" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="device/generic/mini-emulator-x86_64" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="device/generic/qemu" remote="caf"/>
-  <project groups="device,mirror-aosp-pie-platform-release,pdk" name="device/generic/uml" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="device/generic/x86" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="device/generic/x86_64" remote="caf"/>
-  <project groups="device,mirror-aosp-pie-platform-release,pdk" name="device/google/accessory/arduino" remote="caf"/>
-  <project groups="device,mirror-aosp-pie-platform-release,pdk" name="device/google/accessory/demokit" remote="caf"/>
-  <project groups="broadcom_pdk,device,generic_fs,mirror-aosp-pie-platform-release,pdk" name="device/google/atv" remote="caf"/>
-  <project groups="device,marlin,mirror-aosp-pie-platform-release,pdk" name="device/google/contexthub" remote="caf"/>
-  <project groups="device,mirror-aosp-pie-platform-release,muskie,pdk" name="device/google/muskie" remote="caf"/>
-  <project groups="device,mirror-aosp-pie-platform-release,pdk,taimen" name="device/google/taimen" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="device/google/vrservices" remote="caf"/>
-  <project groups="device,mirror-aosp-pie-platform-release,pdk,wahoo" name="device/google/wahoo" remote="caf"/>
+  <project groups="mirror,pdk,pdk-cw-fs" name="device/common" remote="caf"/>
+  <project groups="mirror,pdk" name="device/generic/arm64" remote="caf"/>
+  <project groups="mirror,pdk" name="device/generic/armv7-a-neon" remote="caf"/>
+  <project groups="mirror,pdk" name="device/generic/car" remote="caf"/>
+  <project groups="mirror,pdk" name="device/generic/common" remote="caf"/>
+  <project groups="mirror,pdk" name="device/generic/goldfish" remote="caf"/>
+  <project groups="mirror,pdk" name="device/generic/goldfish-opengl" remote="caf"/>
+  <project groups="mirror,pdk" name="device/generic/mini-emulator-arm64" remote="caf"/>
+  <project groups="mirror,pdk" name="device/generic/mini-emulator-armv7-a-neon" remote="caf"/>
+  <project groups="mirror,pdk" name="device/generic/mini-emulator-x86" remote="caf"/>
+  <project groups="mirror,pdk" name="device/generic/mini-emulator-x86_64" remote="caf"/>
+  <project groups="mirror,pdk" name="device/generic/qemu" remote="caf"/>
+  <project groups="device,mirror,pdk" name="device/generic/uml" remote="caf"/>
+  <project groups="mirror,pdk" name="device/generic/x86" remote="caf"/>
+  <project groups="mirror,pdk" name="device/generic/x86_64" remote="caf"/>
+  <project groups="device,mirror,pdk" name="device/google/accessory/arduino" remote="caf"/>
+  <project groups="device,mirror,pdk" name="device/google/accessory/demokit" remote="caf"/>
+  <project groups="broadcom_pdk,device,generic_fs,mirror,pdk" name="device/google/atv" remote="caf"/>
+  <project groups="device,marlin,mirror,pdk" name="device/google/contexthub" remote="caf"/>
+  <project groups="device,mirror,muskie,pdk" name="device/google/muskie" remote="caf"/>
+  <project groups="device,mirror,pdk,taimen" name="device/google/taimen" remote="caf"/>
+  <project groups="mirror,pdk" name="device/google/vrservices" remote="caf"/>
+  <project groups="device,mirror,pdk,wahoo" name="device/google/wahoo" remote="caf"/>
   <project name="device/qcom/common" remote="caf">
     <copyfile dest="build.sh" src="build.sh"/>
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
   </project>
   <project name="device/qcom/qssi" remote="caf"/>
   <project name="device/qcom/sepolicy" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="device/sample" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="kernel/configs" remote="caf"/>
+  <project groups="mirror,pdk" name="device/sample" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="kernel/configs" remote="caf"/>
   <project name="kernel/lk" path="bootable/bootloader/lk" remote="caf"/>
   <project name="kernel/msm-3.18" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/art" path="art" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/bionic" path="bionic" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/bootable/recovery" path="bootable/recovery" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/build" path="build/make" remote="caf">
+  <project groups="mirror,pdk" name="platform/art" path="art" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/bionic" path="bionic" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/bootable/recovery" path="bootable/recovery" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/build" path="build/make" remote="caf">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -53,401 +53,401 @@
     <linkfile dest="build/target" src="target"/>
     <linkfile dest="build/tools" src="tools"/>
   </project>
-  <project groups="mirror-aosp-pie-platform-release,pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,tradefed" name="platform/build/kati" path="build/kati" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,tradefed" name="platform/build/soong" path="build/soong" remote="caf">
+  <project groups="mirror,pdk,tradefed" name="platform/build/blueprint" path="build/blueprint" remote="caf"/>
+  <project groups="mirror,pdk,tradefed" name="platform/build/kati" path="build/kati" remote="caf"/>
+  <project groups="mirror,pdk,tradefed" name="platform/build/soong" path="build/soong" remote="caf">
     <linkfile dest="Android.bp" src="root.bp"/>
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/compatibility/cdd" path="compatibility/cdd" remote="caf"/>
-  <project groups="cts,mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/dalvik" path="dalvik" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/compatibility/cdd" path="compatibility/cdd" remote="caf"/>
+  <project groups="cts,mirror,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/dalvik" path="dalvik" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/developers/build" path="developers/build" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/developers/demos" path="developers/demos" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/developers/samples/android" path="developers/samples/android" remote="caf"/>
-  <project groups="developers,mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/development" path="development" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/ImageMagick" path="external/ImageMagick" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/Microsoft-GSL" path="external/Microsoft-GSL" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/aac" path="external/aac" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/abi-compliance-checker" path="external/abi-compliance-checker" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/abi-dumper" path="external/abi-dumper" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/adhd" path="external/adhd" remote="caf"/>
-  <project groups="adt-infra,mirror-aosp-pie-platform-release,notdefault,pdk-fs" name="platform/external/adt-infra" path="external/adt-infra" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/android-clat" path="external/android-clat" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/androidplot" path="external/androidplot" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/annotation-tools" path="external/annotation-tools" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/ant-glob" path="external/ant-glob" remote="caf"/>
+  <project groups="developers,mirror,pdk-cw-fs,pdk-fs" name="platform/development" path="development" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/ImageMagick" path="external/ImageMagick" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/Microsoft-GSL" path="external/Microsoft-GSL" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/aac" path="external/aac" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/abi-compliance-checker" path="external/abi-compliance-checker" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/abi-dumper" path="external/abi-dumper" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/adhd" path="external/adhd" remote="caf"/>
+  <project groups="adt-infra,mirror,notdefault,pdk-fs" name="platform/external/adt-infra" path="external/adt-infra" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/android-clat" path="external/android-clat" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/androidplot" path="external/androidplot" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/annotation-tools" path="external/annotation-tools" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/ant-glob" path="external/ant-glob" remote="caf"/>
   <project name="platform/external/ant-wireless/ant_native" path="external/ant-wireless/ant_native" remote="caf"/>
   <project name="platform/external/ant-wireless/ant_service" path="external/ant-wireless/ant_service" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/antlr" path="external/antlr" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/apache-commons-math" path="external/apache-commons-math" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/apache-harmony" path="external/apache-harmony" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/apache-http" path="external/apache-http" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/apache-xml" path="external/apache-xml" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/archive-patcher" path="external/archive-patcher" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/antlr" path="external/antlr" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/apache-commons-math" path="external/apache-commons-math" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/apache-harmony" path="external/apache-harmony" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/apache-http" path="external/apache-http" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/apache-xml" path="external/apache-xml" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/archive-patcher" path="external/archive-patcher" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming" name="platform/external/arm-optimized-routines" path="external/arm-optimized-routines" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/external/autotest" path="external/autotest" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/avb" path="external/avb" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/bart" path="external/bart" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/external/autotest" path="external/autotest" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/avb" path="external/avb" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/bart" path="external/bart" remote="caf"/>
   <project groups="p-fs-release,pdk" name="platform/external/blktrace" path="external/blktrace" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/boringssl" path="external/boringssl" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/bouncycastle" path="external/bouncycastle" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/brotli" path="external/brotli" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/bsdiff" path="external/bsdiff" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/bzip2" path="external/bzip2" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/caliper" path="external/caliper" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/capstone" path="external/capstone" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/cblas" path="external/cblas" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/chromium-libpac" path="external/chromium-libpac" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/chromium-trace" path="external/chromium-trace" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/chromium-webview" path="external/chromium-webview" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/clang" path="external/clang" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/cmockery" path="external/cmockery" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/cn-cbor" path="external/cn-cbor" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/compiler-rt" path="external/compiler-rt" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/conscrypt" path="external/conscrypt" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/crcalc" path="external/crcalc" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/cros/system_api" path="external/cros/system_api" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/curl" path="external/curl" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/dagger2" path="external/dagger2" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/external/deqp" path="external/deqp" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/desugar" path="external/desugar" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/devlib" path="external/devlib" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/dexmaker" path="external/dexmaker" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/dhcpcd-6.8.2" path="external/dhcpcd-6.8.2" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/dlmalloc" path="external/dlmalloc" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/dng_sdk" path="external/dng_sdk" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/dnsmasq" path="external/dnsmasq" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/doclava" path="external/doclava" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/boringssl" path="external/boringssl" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/bouncycastle" path="external/bouncycastle" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/brotli" path="external/brotli" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/bsdiff" path="external/bsdiff" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/bzip2" path="external/bzip2" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/caliper" path="external/caliper" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/capstone" path="external/capstone" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/cblas" path="external/cblas" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/chromium-libpac" path="external/chromium-libpac" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/chromium-trace" path="external/chromium-trace" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/chromium-webview" path="external/chromium-webview" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/clang" path="external/clang" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/cmockery" path="external/cmockery" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/cn-cbor" path="external/cn-cbor" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/compiler-rt" path="external/compiler-rt" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/conscrypt" path="external/conscrypt" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/crcalc" path="external/crcalc" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/cros/system_api" path="external/cros/system_api" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/curl" path="external/curl" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/dagger2" path="external/dagger2" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/external/deqp" path="external/deqp" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/desugar" path="external/desugar" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/devlib" path="external/devlib" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/dexmaker" path="external/dexmaker" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/dhcpcd-6.8.2" path="external/dhcpcd-6.8.2" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/dlmalloc" path="external/dlmalloc" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/dng_sdk" path="external/dng_sdk" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/dnsmasq" path="external/dnsmasq" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/doclava" path="external/doclava" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/external/donuts" path="external/donuts" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/drm_gralloc" path="external/drm_gralloc" remote="caf"/>
-  <project groups="drm_hwcomposer,mirror-aosp-pie-platform-release,pdk-fs" name="platform/external/drm_hwcomposer" path="external/drm_hwcomposer" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/droiddriver" path="external/droiddriver" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/drrickorang" path="external/drrickorang" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/dtc" path="external/dtc" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/e2fsprogs" path="external/e2fsprogs" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/easymock" path="external/easymock" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/eigen" path="external/eigen" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/elfutils" path="external/elfutils" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/emma" path="external/emma" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/error_prone" path="external/error_prone" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/esd" path="external/esd" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/expat" path="external/expat" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/eyes-free" path="external/eyes-free" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/f2fs-tools" path="external/f2fs-tools" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/fdlibm" path="external/fdlibm" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/fec" path="external/fec" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/fio" path="external/fio" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/flac" path="external/flac" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/flatbuffers" path="external/flatbuffers" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/drm_gralloc" path="external/drm_gralloc" remote="caf"/>
+  <project groups="drm_hwcomposer,mirror,pdk-fs" name="platform/external/drm_hwcomposer" path="external/drm_hwcomposer" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/droiddriver" path="external/droiddriver" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/drrickorang" path="external/drrickorang" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/dtc" path="external/dtc" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/e2fsprogs" path="external/e2fsprogs" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/easymock" path="external/easymock" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/eigen" path="external/eigen" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/elfutils" path="external/elfutils" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/emma" path="external/emma" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/error_prone" path="external/error_prone" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/esd" path="external/esd" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/expat" path="external/expat" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/eyes-free" path="external/eyes-free" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/f2fs-tools" path="external/f2fs-tools" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/fdlibm" path="external/fdlibm" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/fec" path="external/fec" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/fio" path="external/fio" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/flac" path="external/flac" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/flatbuffers" path="external/flatbuffers" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/external/fmtlib" path="external/fmtlib" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/fonttools" path="external/fonttools" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/freetype" path="external/freetype" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/fsck_msdos" path="external/fsck_msdos" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/gemmlowp" path="external/gemmlowp" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/gflags" path="external/gflags" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,qcom_msm8x26" name="platform/external/giflib" path="external/giflib" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/glide" path="external/glide" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/golang-protobuf" path="external/golang-protobuf" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/google-api-services-storage" path="external/google-api-services-storage" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/google-benchmark" path="external/google-benchmark" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/external/google-breakpad" path="external/google-breakpad" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/google-fonts/carrois-gothic-sc" path="external/google-fonts/carrois-gothic-sc" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/google-fonts/coming-soon" path="external/google-fonts/coming-soon" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/google-fonts/cutive-mono" path="external/google-fonts/cutive-mono" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/google-fonts/dancing-script" path="external/google-fonts/dancing-script" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/google-styleguide" path="external/google-styleguide" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/google-tv-pairing-protocol" path="external/google-tv-pairing-protocol" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/googletest" path="external/googletest" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/gptfdisk" path="external/gptfdisk" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/guava" path="external/guava" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/guice" path="external/guice" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/hamcrest" path="external/hamcrest" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,qcom_msm8x26" name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/honggfuzz" path="external/honggfuzz" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/hyphenation-patterns" path="external/hyphenation-patterns" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/icu" path="external/icu" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/ims" path="external/ims" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/iproute2" path="external/iproute2" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/ipsec-tools" path="external/ipsec-tools" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/iptables" path="external/iptables" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/iputils" path="external/iputils" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/iw" path="external/iw" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/jacoco" path="external/jacoco" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/jarjar" path="external/jarjar" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/javaparser" path="external/javaparser" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/javasqlite" path="external/javasqlite" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/javassist" path="external/javassist" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/jcommander" path="external/jcommander" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/jdiff" path="external/jdiff" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/jemalloc" path="external/jemalloc" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,pdk-fs,tradefed" name="platform/external/jline" path="external/jline" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/jmdns" path="external/jmdns" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/jsilver" path="external/jsilver" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/jsmn" path="external/jsmn" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/fonttools" path="external/fonttools" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/freetype" path="external/freetype" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/fsck_msdos" path="external/fsck_msdos" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/gemmlowp" path="external/gemmlowp" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/gflags" path="external/gflags" remote="caf"/>
+  <project groups="mirror,pdk,qcom_msm8x26" name="platform/external/giflib" path="external/giflib" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/glide" path="external/glide" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/golang-protobuf" path="external/golang-protobuf" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/google-api-services-storage" path="external/google-api-services-storage" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/google-benchmark" path="external/google-benchmark" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/external/google-breakpad" path="external/google-breakpad" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/google-fonts/carrois-gothic-sc" path="external/google-fonts/carrois-gothic-sc" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/google-fonts/coming-soon" path="external/google-fonts/coming-soon" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/google-fonts/cutive-mono" path="external/google-fonts/cutive-mono" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/google-fonts/dancing-script" path="external/google-fonts/dancing-script" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/google-styleguide" path="external/google-styleguide" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/google-tv-pairing-protocol" path="external/google-tv-pairing-protocol" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/googletest" path="external/googletest" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/gptfdisk" path="external/gptfdisk" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/guava" path="external/guava" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/guice" path="external/guice" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/hamcrest" path="external/hamcrest" remote="caf"/>
+  <project groups="mirror,pdk,qcom_msm8x26" name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/honggfuzz" path="external/honggfuzz" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/hyphenation-patterns" path="external/hyphenation-patterns" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/icu" path="external/icu" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/ims" path="external/ims" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/iproute2" path="external/iproute2" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/ipsec-tools" path="external/ipsec-tools" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/iptables" path="external/iptables" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/iputils" path="external/iputils" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/iw" path="external/iw" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/jacoco" path="external/jacoco" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/jarjar" path="external/jarjar" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/javaparser" path="external/javaparser" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/javasqlite" path="external/javasqlite" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/javassist" path="external/javassist" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/jcommander" path="external/jcommander" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/jdiff" path="external/jdiff" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/jemalloc" path="external/jemalloc" remote="caf"/>
+  <project groups="mirror,pdk,pdk-fs,tradefed" name="platform/external/jline" path="external/jline" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/jmdns" path="external/jmdns" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/jsilver" path="external/jsilver" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/jsmn" path="external/jsmn" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/external/json-c" path="external/json-c" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/jsoncpp" path="external/jsoncpp" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/jsr305" path="external/jsr305" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/jsr330" path="external/jsr330" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/junit" path="external/junit" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/junit-params" path="external/junit-params" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/kernel-headers" path="external/kernel-headers" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/kmod" path="external/kmod" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/kotlinc" path="external/kotlinc" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/ksoap2" path="external/ksoap2" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libavc" path="external/libavc" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libbackup" path="external/libbackup" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libbrillo" path="external/libbrillo" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libcap" path="external/libcap" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libcap-ng" path="external/libcap-ng" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libchrome" path="external/libchrome" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libconstrainedcrypto" path="external/libconstrainedcrypto" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/external/libcups" path="external/libcups" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libcxx" path="external/libcxx" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libcxxabi" path="external/libcxxabi" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libdaemon" path="external/libdaemon" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libdivsufsort" path="external/libdivsufsort" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libdrm" path="external/libdrm" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libedit" path="external/libedit" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libese" path="external/libese" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libevent" path="external/libevent" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libexif" path="external/libexif" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libffi" path="external/libffi" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libgsm" path="external/libgsm" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libhevc" path="external/libhevc" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libjpeg-turbo" path="external/libjpeg-turbo" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libldac" path="external/libldac" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/jsoncpp" path="external/jsoncpp" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/jsr305" path="external/jsr305" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/jsr330" path="external/jsr330" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/junit" path="external/junit" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/junit-params" path="external/junit-params" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/kernel-headers" path="external/kernel-headers" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/kmod" path="external/kmod" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/kotlinc" path="external/kotlinc" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/ksoap2" path="external/ksoap2" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libavc" path="external/libavc" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libbackup" path="external/libbackup" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libbrillo" path="external/libbrillo" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libcap" path="external/libcap" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libcap-ng" path="external/libcap-ng" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libchrome" path="external/libchrome" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libconstrainedcrypto" path="external/libconstrainedcrypto" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/external/libcups" path="external/libcups" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libcxx" path="external/libcxx" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libcxxabi" path="external/libcxxabi" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libdaemon" path="external/libdaemon" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libdivsufsort" path="external/libdivsufsort" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libdrm" path="external/libdrm" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libedit" path="external/libedit" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libese" path="external/libese" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libevent" path="external/libevent" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libexif" path="external/libexif" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libffi" path="external/libffi" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libgsm" path="external/libgsm" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libhevc" path="external/libhevc" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libjpeg-turbo" path="external/libjpeg-turbo" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libldac" path="external/libldac" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/external/liblzf" path="external/liblzf" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libmicrohttpd" path="external/libmicrohttpd" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libmojo" path="external/libmojo" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libmpeg2" path="external/libmpeg2" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libmtp" path="external/libmtp" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libnfnetlink" path="external/libnfnetlink" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libnl" path="external/libnl" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libogg" path="external/libogg" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libopus" path="external/libopus" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libpcap" path="external/libpcap" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libphonenumber" path="external/libphonenumber" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libpng" path="external/libpng" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libtextclassifier" path="external/libtextclassifier" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libunwind" path="external/libunwind" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libunwind_llvm" path="external/libunwind_llvm" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libusb" path="external/libusb" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libusb-compat" path="external/libusb-compat" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libvncserver" path="external/libvncserver" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libvpx" path="external/libvpx" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libvterm" path="external/libvterm" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libxaac" path="external/libxaac" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libxcam" path="external/libxcam" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/libxkbcommon" path="external/libxkbcommon" remote="caf"/>
-  <project groups="libxml2,mirror-aosp-pie-platform-release,pdk" name="platform/external/libxml2" path="external/libxml2" remote="caf"/>
-  <project groups="libyuv,mirror-aosp-pie-platform-release,pdk" name="platform/external/libyuv" path="external/libyuv" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/linux-kselftest" path="external/linux-kselftest" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/lisa" path="external/lisa" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libmicrohttpd" path="external/libmicrohttpd" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libmojo" path="external/libmojo" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libmpeg2" path="external/libmpeg2" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libmtp" path="external/libmtp" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libnetfilter_conntrack" path="external/libnetfilter_conntrack" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libnfnetlink" path="external/libnfnetlink" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libnl" path="external/libnl" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libogg" path="external/libogg" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libopus" path="external/libopus" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libpcap" path="external/libpcap" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libphonenumber" path="external/libphonenumber" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libpng" path="external/libpng" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libtextclassifier" path="external/libtextclassifier" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libunwind" path="external/libunwind" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libunwind_llvm" path="external/libunwind_llvm" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libusb" path="external/libusb" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libusb-compat" path="external/libusb-compat" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libvncserver" path="external/libvncserver" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libvpx" path="external/libvpx" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libvterm" path="external/libvterm" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libxaac" path="external/libxaac" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libxcam" path="external/libxcam" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/libxkbcommon" path="external/libxkbcommon" remote="caf"/>
+  <project groups="libxml2,mirror,pdk" name="platform/external/libxml2" path="external/libxml2" remote="caf"/>
+  <project groups="libyuv,mirror,pdk" name="platform/external/libyuv" path="external/libyuv" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/linux-kselftest" path="external/linux-kselftest" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/lisa" path="external/lisa" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/external/littlemock" path="external/littlemock" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/external/lld" path="external/lld" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/llvm" path="external/llvm" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/lmfit" path="external/lmfit" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/ltp" path="external/ltp" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/lz4" path="external/lz4" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/lzma" path="external/lzma" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/markdown" path="external/markdown" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/mdnsresponder" path="external/mdnsresponder" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/external/mesa3d" path="external/mesa3d" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/llvm" path="external/llvm" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/lmfit" path="external/lmfit" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/ltp" path="external/ltp" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/lz4" path="external/lz4" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/lzma" path="external/lzma" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/markdown" path="external/markdown" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/mdnsresponder" path="external/mdnsresponder" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/external/mesa3d" path="external/mesa3d" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/external/messageformat" path="external/messageformat" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/minijail" path="external/minijail" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/mksh" path="external/mksh" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/mmc-utils" path="external/mmc-utils" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/mockftpserver" path="external/mockftpserver" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/mockito" path="external/mockito" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/mockwebserver" path="external/mockwebserver" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/modp_b64" path="external/modp_b64" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/mp4parser" path="external/mp4parser" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/mtpd" path="external/mtpd" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/nanohttpd" path="external/nanohttpd" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/nanopb-c" path="external/nanopb-c" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/naver-fonts" path="external/naver-fonts" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/netcat" path="external/netcat" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/neven" path="external/neven" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/nfacct" path="external/nfacct" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/nist-pkits" path="external/nist-pkits" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/nist-sip" path="external/nist-sip" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/nos/host/android" path="external/nos/host/android" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/nos/host/generic" path="external/nos/host/generic" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/nos/test/system-test-harness" path="external/nos/test/system-test-harness" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/noto-fonts" path="external/noto-fonts" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/oauth" path="external/oauth" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/objenesis" path="external/objenesis" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/oj-libjdwp" path="external/oj-libjdwp" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/okhttp" path="external/okhttp" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/one-true-awk" path="external/one-true-awk" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/external/opencv" path="external/opencv" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/owasp/sanitizer" path="external/owasp/sanitizer" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/parameter-framework" path="external/parameter-framework" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/pcre" path="external/pcre" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/pdfium" path="external/pdfium" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/perf_data_converter" path="external/perf_data_converter" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/perfetto" path="external/perfetto" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/piex" path="external/piex" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/ply" path="external/ply" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/ppp" path="external/ppp" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/proguard" path="external/proguard" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/protobuf" path="external/protobuf" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/puffin" path="external/puffin" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/Pillow" path="external/python/Pillow" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/appdirs" path="external/python/appdirs" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/cachetools" path="external/python/cachetools" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/python/cpython2" path="external/python/cpython2" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/python/cpython3" path="external/python/cpython3" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/dill" path="external/python/dill" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/enum" path="external/python/enum" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/enum34" path="external/python/enum34" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/future" path="external/python/future" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/futures" path="external/python/futures" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/gapic-google-cloud-pubsub-v1" path="external/python/gapic-google-cloud-pubsub-v1" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/google-api-python-client" path="external/python/google-api-python-client" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/google-auth" path="external/python/google-auth" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/google-auth-httplib2" path="external/python/google-auth-httplib2" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/google-cloud-core" path="external/python/google-cloud-core" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/google-cloud-pubsub" path="external/python/google-cloud-pubsub" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/google-gax" path="external/python/google-gax" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/googleapis" path="external/python/googleapis" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/grpc-google-iam-v1" path="external/python/grpc-google-iam-v1" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/grpcio" path="external/python/grpcio" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/httplib2" path="external/python/httplib2" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/matplotlib" path="external/python/matplotlib" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/numpy" path="external/python/numpy" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/oauth2client" path="external/python/oauth2client" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/olefile" path="external/python/olefile" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/packaging" path="external/python/packaging" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/parse" path="external/python/parse" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/ply" path="external/python/ply" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/proto-google-cloud-pubsub-v1" path="external/python/proto-google-cloud-pubsub-v1" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/protobuf" path="external/python/protobuf" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/pyasn1" path="external/python/pyasn1" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/pyasn1-modules" path="external/python/pyasn1-modules" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/pyparsing" path="external/python/pyparsing" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/requests" path="external/python/requests" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/rsa" path="external/python/rsa" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/scipy" path="external/python/scipy" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/setuptools" path="external/python/setuptools" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/six" path="external/python/six" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/external/python/uritemplates" path="external/python/uritemplates" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/rappor" path="external/rappor" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/replicaisland" path="external/replicaisland" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/rmi4utils" path="external/rmi4utils" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/external/robolectric" path="external/robolectric" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/external/robolectric-shadows" path="external/robolectric-shadows" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/roboto-fonts" path="external/roboto-fonts" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/rootdev" path="external/rootdev" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/safe-iop" path="external/safe-iop" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/external/scapy" path="external/scapy" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/scrypt" path="external/scrypt" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/seccomp-tests" path="external/seccomp-tests" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/selinux" path="external/selinux" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,qcom_msm8x26" name="platform/external/sfntly" path="external/sfntly" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/shaderc/spirv-headers" path="external/shaderc/spirv-headers" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/shflags" path="external/shflags" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,qcom_msm8x26" name="platform/external/skia" path="external/skia" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/sl4a" path="external/sl4a" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/slf4j" path="external/slf4j" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/smali" path="external/smali" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/snakeyaml" path="external/snakeyaml" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/sonic" path="external/sonic" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/sonivox" path="external/sonivox" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/speex" path="external/speex" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/spirv-llvm" path="external/spirv-llvm" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/sqlite" path="external/sqlite" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/squashfs-tools" path="external/squashfs-tools" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/strace" path="external/strace" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/stressapptest" path="external/stressapptest" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/swiftshader" path="external/swiftshader" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/syslinux" path="external/syslinux" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/tagsoup" path="external/tagsoup" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/tcpdump" path="external/tcpdump" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/tensorflow" path="external/tensorflow" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/testng" path="external/testng" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/timezonepicker-support" path="external/timezonepicker-support" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/tinyalsa" path="external/tinyalsa" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/tinycompress" path="external/tinycompress" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/tinyxml" path="external/tinyxml" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/tinyxml2" path="external/tinyxml2" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/toybox" path="external/toybox" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/tpm2" path="external/tpm2" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/trappy" path="external/trappy" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/tremolo" path="external/tremolo" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/turbine" path="external/turbine" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/unicode" path="external/unicode" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/minijail" path="external/minijail" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/mksh" path="external/mksh" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/mmc-utils" path="external/mmc-utils" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/mockftpserver" path="external/mockftpserver" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/mockito" path="external/mockito" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/mockwebserver" path="external/mockwebserver" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/modp_b64" path="external/modp_b64" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/mp4parser" path="external/mp4parser" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/mtpd" path="external/mtpd" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/nanohttpd" path="external/nanohttpd" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/nanopb-c" path="external/nanopb-c" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/naver-fonts" path="external/naver-fonts" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/netcat" path="external/netcat" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/neven" path="external/neven" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/nfacct" path="external/nfacct" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/nist-pkits" path="external/nist-pkits" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/nist-sip" path="external/nist-sip" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/nos/host/android" path="external/nos/host/android" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/nos/host/generic" path="external/nos/host/generic" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/nos/test/system-test-harness" path="external/nos/test/system-test-harness" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/noto-fonts" path="external/noto-fonts" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/oauth" path="external/oauth" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/objenesis" path="external/objenesis" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/oj-libjdwp" path="external/oj-libjdwp" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/okhttp" path="external/okhttp" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/one-true-awk" path="external/one-true-awk" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/external/opencv" path="external/opencv" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/owasp/sanitizer" path="external/owasp/sanitizer" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/parameter-framework" path="external/parameter-framework" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/pcre" path="external/pcre" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/pdfium" path="external/pdfium" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/perf_data_converter" path="external/perf_data_converter" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/perfetto" path="external/perfetto" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/piex" path="external/piex" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/ply" path="external/ply" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/ppp" path="external/ppp" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/proguard" path="external/proguard" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/protobuf" path="external/protobuf" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/puffin" path="external/puffin" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/Pillow" path="external/python/Pillow" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/appdirs" path="external/python/appdirs" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/cachetools" path="external/python/cachetools" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/python/cpython2" path="external/python/cpython2" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/python/cpython3" path="external/python/cpython3" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/dill" path="external/python/dill" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/enum" path="external/python/enum" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/enum34" path="external/python/enum34" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/future" path="external/python/future" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/futures" path="external/python/futures" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/gapic-google-cloud-pubsub-v1" path="external/python/gapic-google-cloud-pubsub-v1" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/google-api-python-client" path="external/python/google-api-python-client" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/google-auth" path="external/python/google-auth" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/google-auth-httplib2" path="external/python/google-auth-httplib2" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/google-cloud-core" path="external/python/google-cloud-core" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/google-cloud-pubsub" path="external/python/google-cloud-pubsub" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/google-gax" path="external/python/google-gax" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/googleapis" path="external/python/googleapis" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/grpc-google-iam-v1" path="external/python/grpc-google-iam-v1" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/grpcio" path="external/python/grpcio" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/httplib2" path="external/python/httplib2" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/matplotlib" path="external/python/matplotlib" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/numpy" path="external/python/numpy" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/oauth2client" path="external/python/oauth2client" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/olefile" path="external/python/olefile" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/packaging" path="external/python/packaging" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/parse" path="external/python/parse" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/ply" path="external/python/ply" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/proto-google-cloud-pubsub-v1" path="external/python/proto-google-cloud-pubsub-v1" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/protobuf" path="external/python/protobuf" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/pyasn1" path="external/python/pyasn1" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/pyasn1-modules" path="external/python/pyasn1-modules" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/pyparsing" path="external/python/pyparsing" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/requests" path="external/python/requests" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/rsa" path="external/python/rsa" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/scipy" path="external/python/scipy" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/setuptools" path="external/python/setuptools" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/six" path="external/python/six" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/python/uritemplates" path="external/python/uritemplates" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/rappor" path="external/rappor" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/replicaisland" path="external/replicaisland" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/rmi4utils" path="external/rmi4utils" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/external/robolectric" path="external/robolectric" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/external/robolectric-shadows" path="external/robolectric-shadows" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/roboto-fonts" path="external/roboto-fonts" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/rootdev" path="external/rootdev" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/safe-iop" path="external/safe-iop" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/external/scapy" path="external/scapy" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/scrypt" path="external/scrypt" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/seccomp-tests" path="external/seccomp-tests" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/selinux" path="external/selinux" remote="caf"/>
+  <project groups="mirror,pdk,qcom_msm8x26" name="platform/external/sfntly" path="external/sfntly" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/shaderc/spirv-headers" path="external/shaderc/spirv-headers" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/shflags" path="external/shflags" remote="caf"/>
+  <project groups="mirror,pdk,qcom_msm8x26" name="platform/external/skia" path="external/skia" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/sl4a" path="external/sl4a" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/slf4j" path="external/slf4j" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/smali" path="external/smali" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/snakeyaml" path="external/snakeyaml" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/sonic" path="external/sonic" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/sonivox" path="external/sonivox" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/speex" path="external/speex" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/spirv-llvm" path="external/spirv-llvm" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/sqlite" path="external/sqlite" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/squashfs-tools" path="external/squashfs-tools" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/strace" path="external/strace" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/stressapptest" path="external/stressapptest" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/swiftshader" path="external/swiftshader" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/syslinux" path="external/syslinux" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/tagsoup" path="external/tagsoup" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/tcpdump" path="external/tcpdump" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/tensorflow" path="external/tensorflow" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/testng" path="external/testng" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/timezonepicker-support" path="external/timezonepicker-support" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/tinyalsa" path="external/tinyalsa" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/tinycompress" path="external/tinycompress" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/tinyxml" path="external/tinyxml" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/tinyxml2" path="external/tinyxml2" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/toybox" path="external/toybox" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/tpm2" path="external/tpm2" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/trappy" path="external/trappy" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/tremolo" path="external/tremolo" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/turbine" path="external/turbine" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/unicode" path="external/unicode" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/external/universal-tween-engine" path="external/universal-tween-engine" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/v4l2_codec2" path="external/v4l2_codec2" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/v8" path="external/v8" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/valgrind" path="external/valgrind" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs,vboot" name="platform/external/vboot_reference" path="external/vboot_reference" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/vixl" path="external/vixl" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/vogar" path="external/vogar" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/volley" path="external/volley" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/v4l2_codec2" path="external/v4l2_codec2" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/v8" path="external/v8" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/valgrind" path="external/valgrind" remote="caf"/>
+  <project groups="mirror,pdk-fs,vboot" name="platform/external/vboot_reference" path="external/vboot_reference" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/vixl" path="external/vixl" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/vogar" path="external/vogar" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/volley" path="external/volley" remote="caf"/>
   <project groups="p-fs-release,pdk" name="platform/external/vulkan-validation-layers" path="external/vulkan-validation-layers" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/walt" path="external/walt" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/wayland" path="external/wayland" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/wayland-protocols" path="external/wayland-protocols" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,qcom_msm8x26" name="platform/external/webp" path="external/webp" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/webrtc" path="external/webrtc" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/webview_support_interfaces" path="external/webview_support_interfaces" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/wycheproof" path="external/wycheproof" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/x264" path="external/x264" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/xmlrpcpp" path="external/xmlrpcpp" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/walt" path="external/walt" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/wayland" path="external/wayland" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/wayland-protocols" path="external/wayland-protocols" remote="caf"/>
+  <project groups="mirror,pdk,qcom_msm8x26" name="platform/external/webp" path="external/webp" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/webrtc" path="external/webrtc" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/webview_support_interfaces" path="external/webview_support_interfaces" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/wycheproof" path="external/wycheproof" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/x264" path="external/x264" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/xmlrpcpp" path="external/xmlrpcpp" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/external/xmlwriter" path="external/xmlwriter" remote="caf"/>
   <project groups="p-fs-release,pdk" name="platform/external/xmp_toolkit" path="external/xmp_toolkit" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/xz-embedded" path="external/xz-embedded" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/zlib" path="external/zlib" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/zopfli" path="external/zopfli" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/external/zxing" path="external/zxing" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/frameworks/av" path="frameworks/av" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/data-binding" path="frameworks/data-binding" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/ex" path="frameworks/ex" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/frameworks/hardware/interfaces" path="frameworks/hardware/interfaces" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/layoutlib" path="frameworks/layoutlib" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/minikin" path="frameworks/minikin" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/frameworks/ml" path="frameworks/ml" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/multidex" path="frameworks/multidex" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/frameworks/native" path="frameworks/native" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/frameworks/opt/car/services" path="frameworks/opt/car/services" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/frameworks/opt/car/setupwizard" path="frameworks/opt/car/setupwizard" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/chips" path="frameworks/opt/chips" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/colorpicker" path="frameworks/opt/colorpicker" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/datetimepicker" path="frameworks/opt/datetimepicker" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/frameworks/opt/inputconnectioncommon" path="frameworks/opt/inputconnectioncommon" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" remote="caf"/>
-  <project groups="frameworks_ims,mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/frameworks/opt/net/lowpan" path="frameworks/opt/net/lowpan" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/setupwizard" path="frameworks/opt/setupwizard" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/timezonepicker" path="frameworks/opt/timezonepicker" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/frameworks/rs" path="frameworks/rs" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/support" path="frameworks/support" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/frameworks/wilhelm" path="frameworks/wilhelm" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/hardware/akm" path="hardware/akm" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/hardware/google/apf" path="hardware/google/apf" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/hardware/google/av" path="hardware/google/av" remote="caf"/>
-  <project groups="easel,mirror-aosp-pie-platform-release,pdk" name="platform/hardware/google/easel" path="hardware/google/easel" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/hardware/google/interfaces" path="hardware/google/interfaces" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/hardware/interfaces" path="hardware/interfaces" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/xz-embedded" path="external/xz-embedded" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/zlib" path="external/zlib" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/zopfli" path="external/zopfli" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/external/zxing" path="external/zxing" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/frameworks/av" path="frameworks/av" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/base" path="frameworks/base" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/data-binding" path="frameworks/data-binding" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/ex" path="frameworks/ex" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/frameworks/hardware/interfaces" path="frameworks/hardware/interfaces" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/layoutlib" path="frameworks/layoutlib" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/minikin" path="frameworks/minikin" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/frameworks/ml" path="frameworks/ml" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/multidex" path="frameworks/multidex" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/frameworks/native" path="frameworks/native" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/frameworks/opt/bitmap" path="frameworks/opt/bitmap" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/frameworks/opt/car/services" path="frameworks/opt/car/services" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/frameworks/opt/car/setupwizard" path="frameworks/opt/car/setupwizard" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/chips" path="frameworks/opt/chips" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/colorpicker" path="frameworks/opt/colorpicker" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/datetimepicker" path="frameworks/opt/datetimepicker" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/frameworks/opt/inputconnectioncommon" path="frameworks/opt/inputconnectioncommon" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/inputmethodcommon" path="frameworks/opt/inputmethodcommon" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/frameworks/opt/net/ethernet" path="frameworks/opt/net/ethernet" remote="caf"/>
+  <project groups="frameworks_ims,mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/net/ims" path="frameworks/opt/net/ims" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/frameworks/opt/net/lowpan" path="frameworks/opt/net/lowpan" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/frameworks/opt/net/wifi" path="frameworks/opt/net/wifi" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/setupwizard" path="frameworks/opt/setupwizard" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/timezonepicker" path="frameworks/opt/timezonepicker" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/frameworks/rs" path="frameworks/rs" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/support" path="frameworks/support" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/wilhelm" path="frameworks/wilhelm" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/hardware/akm" path="hardware/akm" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/hardware/google/apf" path="hardware/google/apf" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/hardware/google/av" path="hardware/google/av" remote="caf"/>
+  <project groups="easel,mirror,pdk" name="platform/hardware/google/easel" path="hardware/google/easel" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/hardware/google/interfaces" path="hardware/google/interfaces" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/hardware/interfaces" path="hardware/interfaces" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/hardware/invensense" path="hardware/invensense" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/hardware/libhardware" path="hardware/libhardware" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/hardware/libhardware" path="hardware/libhardware" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" remote="caf"/>
   <project name="platform/hardware/nxp/nfc" path="hardware/nxp/nfc" remote="caf"/>
   <project name="platform/hardware/nxp/secure_element" path="hardware/nxp/secure_element" remote="caf"/>
   <project name="platform/hardware/qcom/audio" path="hardware/qcom/audio" remote="caf"/>
@@ -460,201 +460,201 @@
   <project name="platform/hardware/qcom/thermal" path="vendor/qcom/opensource/thermal-hal" remote="caf"/>
   <project name="platform/hardware/qcom/vr" path="hardware/qcom/vr" remote="caf"/>
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/hardware/ril" path="hardware/ril" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/libcore" path="libcore" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/libnativehelper" path="libnativehelper" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Browser2" path="packages/apps/Browser2" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/hardware/ril" path="hardware/ril" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/libcore" path="libcore" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/libnativehelper" path="libnativehelper" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Browser2" path="packages/apps/Browser2" remote="caf"/>
   <project name="platform/packages/apps/CMFileManager" path="packages/apps/CMFileManager" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Calendar" path="packages/apps/Calendar" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Camera2" path="packages/apps/Camera2" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Car/Dialer" path="packages/apps/Car/Dialer" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Car/Hvac" path="packages/apps/Car/Hvac" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Car/LatinIME" path="packages/apps/Car/LatinIME" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Car/Launcher" path="packages/apps/Car/Launcher" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Car/LensPicker" path="packages/apps/Car/LensPicker" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Car/LocalMediaPlayer" path="packages/apps/Car/LocalMediaPlayer" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Car/Media" path="packages/apps/Car/Media" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Car/Messenger" path="packages/apps/Car/Messenger" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Car/Overview" path="packages/apps/Car/Overview" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Car/Radio" path="packages/apps/Car/Radio" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Car/Settings" path="packages/apps/Car/Settings" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Car/Stream" path="packages/apps/Car/Stream" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Car/SystemUpdater" path="packages/apps/Car/SystemUpdater" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Calendar" path="packages/apps/Calendar" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Camera2" path="packages/apps/Camera2" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Car/Dialer" path="packages/apps/Car/Dialer" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Car/Hvac" path="packages/apps/Car/Hvac" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Car/LatinIME" path="packages/apps/Car/LatinIME" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Car/Launcher" path="packages/apps/Car/Launcher" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Car/LensPicker" path="packages/apps/Car/LensPicker" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Car/LocalMediaPlayer" path="packages/apps/Car/LocalMediaPlayer" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Car/Media" path="packages/apps/Car/Media" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Car/Messenger" path="packages/apps/Car/Messenger" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Car/Overview" path="packages/apps/Car/Overview" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Car/Radio" path="packages/apps/Car/Radio" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Car/Settings" path="packages/apps/Car/Settings" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Car/Stream" path="packages/apps/Car/Stream" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Car/SystemUpdater" path="packages/apps/Car/SystemUpdater" remote="caf"/>
   <project groups="p-fs-release,pdk-fs,qcom-LA.UM.7.3-incoming" name="platform/packages/apps/Car/UserManagement" path="packages/apps/Car/UserManagement" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Car/libs" path="packages/apps/Car/libs" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Contacts" path="packages/apps/Contacts" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/packages/apps/DevCamera" path="packages/apps/DevCamera" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Dialer" path="packages/apps/Dialer" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/DocumentsUI" path="packages/apps/DocumentsUI" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Email" path="packages/apps/Email" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Car/libs" path="packages/apps/Car/libs" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Contacts" path="packages/apps/Contacts" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/packages/apps/DevCamera" path="packages/apps/DevCamera" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Dialer" path="packages/apps/Dialer" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/packages/apps/DocumentsUI" path="packages/apps/DocumentsUI" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Email" path="packages/apps/Email" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" remote="caf"/>
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Gallery" path="packages/apps/Gallery" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Messaging" path="packages/apps/Messaging" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Gallery" path="packages/apps/Gallery" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Messaging" path="packages/apps/Messaging" remote="caf"/>
   <project name="platform/packages/apps/Mms" path="packages/apps/Mms" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Music" path="packages/apps/Music" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" remote="caf"/>
-  <project groups="apps_nfc,mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Nfc" path="packages/apps/Nfc" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Protips" path="packages/apps/Protips" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Provision" path="packages/apps/Provision" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" remote="caf"/>
-  <project groups="apps_se,mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/SecureElement" path="packages/apps/SecureElement" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Settings" path="packages/apps/Settings" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Music" path="packages/apps/Music" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" remote="caf"/>
+  <project groups="apps_nfc,mirror,pdk-fs" name="platform/packages/apps/Nfc" path="packages/apps/Nfc" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Protips" path="packages/apps/Protips" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Provision" path="packages/apps/Provision" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" remote="caf"/>
+  <project groups="apps_se,mirror,pdk-fs" name="platform/packages/apps/SecureElement" path="packages/apps/SecureElement" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Settings" path="packages/apps/Settings" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService" remote="caf"/>
   <project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera" remote="caf"/>
   <project name="platform/packages/apps/SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="caf"/>
   <project name="platform/packages/apps/SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" remote="caf"/>
-  <project groups="apps_stk,mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Stk" path="packages/apps/Stk" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/StorageManager" path="packages/apps/StorageManager" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" remote="caf"/>
+  <project groups="apps_stk,mirror,pdk-fs" name="platform/packages/apps/Stk" path="packages/apps/Stk" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/StorageManager" path="packages/apps/StorageManager" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/packages/apps/TV" path="packages/apps/TV" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Tag" path="packages/apps/Tag" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Terminal" path="packages/apps/Terminal" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/packages/apps/Test/connectivity" path="packages/apps/Test/connectivity" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/packages/apps/TimeZoneData" path="packages/apps/TimeZoneData" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/packages/apps/TimeZoneUpdater" path="packages/apps/TimeZoneUpdater" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/Traceur" path="packages/apps/Traceur" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Tag" path="packages/apps/Tag" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Terminal" path="packages/apps/Terminal" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/packages/apps/Test/connectivity" path="packages/apps/Test/connectivity" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/packages/apps/TimeZoneData" path="packages/apps/TimeZoneData" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/packages/apps/TimeZoneUpdater" path="packages/apps/TimeZoneUpdater" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/Traceur" path="packages/apps/Traceur" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/packages/experimental" path="packages/experimental" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/providers/BlockedNumberProvider" path="packages/providers/BlockedNumberProvider" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/providers/BookmarkProvider" path="packages/providers/BookmarkProvider" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/providers/CallLogProvider" path="packages/providers/CallLogProvider" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/providers/TvProvider" path="packages/providers/TvProvider" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/screensavers/Basic" path="packages/screensavers/Basic" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/screensavers/WebView" path="packages/screensavers/WebView" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/packages/services/BuiltInPrintService" path="packages/services/BuiltInPrintService" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/packages/services/Car" path="packages/services/Car" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/packages/services/Mms" path="packages/services/Mms" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/services/NetworkRecommendation" path="packages/services/NetworkRecommendation" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/providers/BlockedNumberProvider" path="packages/providers/BlockedNumberProvider" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/providers/BookmarkProvider" path="packages/providers/BookmarkProvider" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/providers/CallLogProvider" path="packages/providers/CallLogProvider" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/providers/TvProvider" path="packages/providers/TvProvider" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/screensavers/Basic" path="packages/screensavers/Basic" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/screensavers/WebView" path="packages/screensavers/WebView" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/packages/services/BuiltInPrintService" path="packages/services/BuiltInPrintService" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/packages/services/Car" path="packages/services/Car" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/packages/services/Mms" path="packages/services/Mms" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/services/NetworkRecommendation" path="packages/services/NetworkRecommendation" remote="caf"/>
   <project groups="p-fs-release,pdk-cw-fs,pdk-fs,qcom-LA.UM.7.3-incoming" name="platform/packages/services/Rcs" path="packages/services/Rcs" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/packages/services/Telecomm" path="packages/services/Telecomm" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/packages/services/Telephony" path="packages/services/Telephony" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/pdk" path="pdk" remote="caf"/>
-  <project groups="cts,mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/platform_testing" path="platform_testing" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/prebuilts/build-tools" path="prebuilts/build-tools" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/prebuilts/deqp" path="prebuilts/deqp" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/prebuilts/devtools" path="prebuilts/devtools" remote="caf"/>
-  <project groups="arm,linux,mirror-aosp-pie-platform-release,pdk" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/packages/services/Telecomm" path="packages/services/Telecomm" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/packages/services/Telephony" path="packages/services/Telephony" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/pdk" path="pdk" remote="caf"/>
+  <project groups="cts,mirror,pdk-cw-fs,pdk-fs" name="platform/platform_testing" path="platform_testing" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/prebuilts/build-tools" path="prebuilts/build-tools" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/prebuilts/deqp" path="prebuilts/deqp" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/prebuilts/devtools" path="prebuilts/devtools" remote="caf"/>
+  <project groups="arm,linux,mirror,pdk" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="caf"/>
   <project groups="arm,linux,pdk,qcom-LA.UM.7.3-incoming,vendor" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="caf"/>
-  <project groups="arm,linux,mirror-aosp-pie-platform-release,pdk" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="caf"/>
-  <project groups="linux,mirror-aosp-pie-platform-release,pdk" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="caf"/>
-  <project groups="linux,mirror-aosp-pie-platform-release,pdk,x86" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" remote="caf"/>
+  <project groups="arm,linux,mirror,pdk" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="caf"/>
+  <project groups="linux,mirror,pdk" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="caf"/>
+  <project groups="linux,mirror,pdk,x86" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/prebuilts/gdb/linux-x86" path="prebuilts/gdb/linux-x86" remote="caf"/>
-  <project groups="linux,mirror-aosp-pie-platform-release,pdk,tradefed" name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,pdk-cw-fs,pdk-fs" name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/prebuilts/libs/libedit" path="prebuilts/libs/libedit" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/prebuilts/maven_repo/bumptech" path="prebuilts/maven_repo/bumptech" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/prebuilts/misc" path="prebuilts/misc" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/prebuilts/ndk" path="prebuilts/ndk" remote="caf"/>
-  <project groups="linux,mirror-aosp-pie-platform-release,pdk,pdk-cw-fs,pdk-fs" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/prebuilts/r8" path="prebuilts/r8" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/prebuilts/vndk/v27" path="prebuilts/vndk/v27" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/sdk" path="sdk" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/bt" path="system/bt" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/ca-certificates" path="system/ca-certificates" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/chre" path="system/chre" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/connectivity/wificond" path="system/connectivity/wificond" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/connectivity/wifilogd" path="system/connectivity/wifilogd" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/core" path="system/core" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/extras" path="system/extras" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/gatekeeper" path="system/gatekeeper" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/hardware/interfaces" path="system/hardware/interfaces" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/hwservicemanager" path="system/hwservicemanager" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/iot/attestation" path="system/iot/attestation" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/keymaster" path="system/keymaster" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/libfmq" path="system/libfmq" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/libhidl" path="system/libhidl" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/libhwbinder" path="system/libhwbinder" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/libufdt" path="system/libufdt" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/libvintf" path="system/libvintf" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/media" path="system/media" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/netd" path="system/netd" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/nfc" path="system/nfc" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/nvram" path="system/nvram" remote="caf"/>
+  <project groups="linux,mirror,pdk,tradefed" name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" remote="caf"/>
+  <project groups="mirror,pdk,pdk-cw-fs,pdk-fs" name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/prebuilts/jdk/jdk9" path="prebuilts/jdk/jdk9" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/prebuilts/libs/libedit" path="prebuilts/libs/libedit" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/prebuilts/maven_repo/bumptech" path="prebuilts/maven_repo/bumptech" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/prebuilts/misc" path="prebuilts/misc" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/prebuilts/ndk" path="prebuilts/ndk" remote="caf"/>
+  <project groups="linux,mirror,pdk,pdk-cw-fs,pdk-fs" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/prebuilts/r8" path="prebuilts/r8" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="caf"/>
+  <project groups="mirror,pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/prebuilts/vndk/v27" path="prebuilts/vndk/v27" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/sdk" path="sdk" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/bt" path="system/bt" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/ca-certificates" path="system/ca-certificates" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/chre" path="system/chre" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/connectivity/wificond" path="system/connectivity/wificond" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/connectivity/wifilogd" path="system/connectivity/wifilogd" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/core" path="system/core" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/extras" path="system/extras" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/gatekeeper" path="system/gatekeeper" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/hardware/interfaces" path="system/hardware/interfaces" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/hwservicemanager" path="system/hwservicemanager" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/iot/attestation" path="system/iot/attestation" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/keymaster" path="system/keymaster" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/libfmq" path="system/libfmq" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/libhidl" path="system/libhidl" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/libhwbinder" path="system/libhwbinder" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/libufdt" path="system/libufdt" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/libvintf" path="system/libvintf" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/media" path="system/media" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/netd" path="system/netd" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/nfc" path="system/nfc" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/nvram" path="system/nvram" remote="caf"/>
   <project name="platform/system/qcom" path="vendor/qcom/opensource/softap" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/security" path="system/security" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/sepolicy" path="system/sepolicy" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/timezone" path="system/timezone" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/tools/aidl" path="system/tools/aidl" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/tools/hidl" path="system/tools/hidl" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/security" path="system/security" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/sepolicy" path="system/sepolicy" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/timezone" path="system/timezone" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/tools/aidl" path="system/tools/aidl" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/tools/hidl" path="system/tools/hidl" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/system/tpm" path="system/tpm" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/update_engine" path="system/update_engine" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/system/vold" path="system/vold" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/test/framework" path="test/framework" remote="caf"/>
-  <project groups="cts,mirror-aosp-pie-platform-release,pdk-cw-fs,pdk-fs" name="platform/test/suite_harness" path="test/suite_harness" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/test/vti/alert" path="test/vti/alert" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/test/vti/dashboard" path="test/vti/dashboard" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/test/vti/fuzz_test_serving" path="test/vti/fuzz_test_serving" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/test/vti/test_serving" path="test/vti/test_serving" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/test/vts" path="test/vts" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/test/vts-testcase/fuzz" path="test/vts-testcase/fuzz" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/test/vts-testcase/hal" path="test/vts-testcase/hal" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/test/vts-testcase/hal-trace" path="test/vts-testcase/hal-trace" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/test/vts-testcase/kernel" path="test/vts-testcase/kernel" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/test/vts-testcase/nbu" path="test/vts-testcase/nbu" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/test/vts-testcase/performance" path="test/vts-testcase/performance" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/test/vts-testcase/security" path="test/vts-testcase/security" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,vts" name="platform/test/vts-testcase/vndk" path="test/vts-testcase/vndk" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,tools,tradefed,vts" name="platform/tools/acloud" path="tools/acloud" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,tradefed" name="platform/tools/apksig" path="tools/apksig" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,tradefed" name="platform/tools/apkzlib" path="tools/apkzlib" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk-fs,tools" name="platform/tools/dexter" path="tools/dexter" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/update_engine" path="system/update_engine" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/system/vold" path="system/vold" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/test/framework" path="test/framework" remote="caf"/>
+  <project groups="cts,mirror,pdk-cw-fs,pdk-fs" name="platform/test/suite_harness" path="test/suite_harness" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/test/vti/alert" path="test/vti/alert" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/test/vti/dashboard" path="test/vti/dashboard" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/test/vti/fuzz_test_serving" path="test/vti/fuzz_test_serving" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/test/vti/test_serving" path="test/vti/test_serving" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/test/vts" path="test/vts" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/test/vts-testcase/fuzz" path="test/vts-testcase/fuzz" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/test/vts-testcase/hal" path="test/vts-testcase/hal" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/test/vts-testcase/hal-trace" path="test/vts-testcase/hal-trace" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/test/vts-testcase/kernel" path="test/vts-testcase/kernel" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/test/vts-testcase/nbu" path="test/vts-testcase/nbu" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/test/vts-testcase/performance" path="test/vts-testcase/performance" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/test/vts-testcase/security" path="test/vts-testcase/security" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/test/vts-testcase/vndk" path="test/vts-testcase/vndk" remote="caf"/>
+  <project groups="mirror,pdk,tools,tradefed,vts" name="platform/tools/acloud" path="tools/acloud" remote="caf"/>
+  <project groups="mirror,pdk,tradefed" name="platform/tools/apksig" path="tools/apksig" remote="caf"/>
+  <project groups="mirror,pdk,tradefed" name="platform/tools/apkzlib" path="tools/apkzlib" remote="caf"/>
+  <project groups="mirror,pdk-fs,tools" name="platform/tools/dexter" path="tools/dexter" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/tools/external/fat32lib" path="tools/external/fat32lib" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/tools/external/gradle" path="tools/external/gradle" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,nopresubmit,pdk,tradefed" name="platform/tools/loganalysis" path="tools/loganalysis" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,tools" name="platform/tools/metalava" path="tools/metalava" remote="caf"/>
-  <project groups="adt-infra,cts,developers,mirror-aosp-pie-platform-release,motodev,pdk,tools,tradefed" name="platform/tools/repohooks" path="tools/repohooks" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="platform/tools/test/connectivity" path="tools/test/connectivity" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,tradefed" name="platform/tools/tradefederation" path="tools/tradefederation/core" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk,tradefed" name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" remote="caf"/>
+  <project groups="mirror,nopresubmit,pdk,tradefed" name="platform/tools/loganalysis" path="tools/loganalysis" remote="caf"/>
+  <project groups="mirror,pdk,tools" name="platform/tools/metalava" path="tools/metalava" remote="caf"/>
+  <project groups="adt-infra,cts,developers,mirror,motodev,pdk,tools,tradefed" name="platform/tools/repohooks" path="tools/repohooks" remote="caf"/>
+  <project groups="mirror,pdk" name="platform/tools/test/connectivity" path="tools/test/connectivity" remote="caf"/>
+  <project groups="mirror,pdk,tradefed" name="platform/tools/tradefederation" path="tools/tradefederation/core" remote="caf"/>
+  <project groups="mirror,pdk,tradefed" name="platform/tools/tradefederation/contrib" path="tools/tradefederation/contrib" remote="caf"/>
   <project name="platform/vendor/codeaurora/packages/apps/Dialer" path="vendor/codeaurora/commonsys/packages/apps/Dialer" remote="caf"/>
   <project name="platform/vendor/codeaurora/telephony" path="vendor/codeaurora/commonsys/telephony" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/vendor/google_easel" path="vendor/google_easel" remote="caf"/>
@@ -699,6 +699,6 @@
   <project name="platform/vendor/qcom/titanium_32" path="device/qcom/msm8953_32" remote="caf"/>
   <project name="platform/vendor/qcom/titanium_64" path="device/qcom/msm8953_64" remote="caf"/>
   <project name="platform/vendor/qcom/wlan" path="device/qcom/wlan" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="toolchain/binutils" remote="caf"/>
-  <project groups="mirror-aosp-pie-platform-release,pdk" name="toolchain/pgo-profiles" remote="caf"/>
+  <project groups="mirror,pdk" name="toolchain/binutils" remote="caf"/>
+  <project groups="mirror,pdk" name="toolchain/pgo-profiles" remote="caf"/>
 </manifest>
