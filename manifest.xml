@@ -60,7 +60,7 @@
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
   <project groups="mirror,pdk" name="platform/compatibility/cdd" path="compatibility/cdd" remote="caf"/>
-  <project groups="cts,mirror,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" remote="caf"/>
+  <project groups="cts,mirror,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" remote="caf" clone-depth="1"/>
   <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/dalvik" path="dalvik" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/developers/build" path="developers/build" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/developers/demos" path="developers/demos" remote="caf"/>
@@ -86,7 +86,7 @@
   <project groups="mirror,pdk" name="platform/external/apache-xml" path="external/apache-xml" remote="caf"/>
   <project groups="mirror,pdk" name="platform/external/archive-patcher" path="external/archive-patcher" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming" name="platform/external/arm-optimized-routines" path="external/arm-optimized-routines" remote="caf"/>
-  <project groups="mirror,pdk-fs" name="platform/external/autotest" path="external/autotest" remote="caf"/>
+  <project groups="mirror,pdk-fs" name="platform/external/autotest" path="external/autotest" remote="caf" clone-depth="1"/>
   <project groups="mirror,pdk" name="platform/external/avb" path="external/avb" remote="caf"/>
   <project groups="mirror,pdk" name="platform/external/bart" path="external/bart" remote="caf"/>
   <project groups="p-fs-release,pdk" name="platform/external/blktrace" path="external/blktrace" remote="caf"/>
@@ -243,7 +243,7 @@
   <project groups="mirror,pdk" name="platform/external/libxkbcommon" path="external/libxkbcommon" remote="caf"/>
   <project groups="libxml2,mirror,pdk" name="platform/external/libxml2" path="external/libxml2" remote="caf"/>
   <project groups="libyuv,mirror,pdk" name="platform/external/libyuv" path="external/libyuv" remote="caf"/>
-  <project groups="mirror,pdk,vts" name="platform/external/linux-kselftest" path="external/linux-kselftest" remote="caf"/>
+  <project groups="mirror,pdk,vts" name="platform/external/linux-kselftest" path="external/linux-kselftest" remote="caf" clone-depth="1"/>
   <project groups="mirror,pdk" name="platform/external/lisa" path="external/lisa" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/external/littlemock" path="external/littlemock" remote="caf"/>
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/external/lld" path="external/lld" remote="caf"/>
@@ -412,7 +412,7 @@
   <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/data-binding" path="frameworks/data-binding" remote="caf"/>
   <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/ex" path="frameworks/ex" remote="caf"/>
   <project groups="mirror,pdk" name="platform/frameworks/hardware/interfaces" path="frameworks/hardware/interfaces" remote="caf"/>
-  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/layoutlib" path="frameworks/layoutlib" remote="caf"/>
+  <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/layoutlib" path="frameworks/layoutlib" remote="caf" clone-depth="1"/>
   <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/minikin" path="frameworks/minikin" remote="caf"/>
   <project groups="mirror,pdk" name="platform/frameworks/ml" path="frameworks/ml" remote="caf"/>
   <project groups="mirror,pdk-cw-fs,pdk-fs" name="platform/frameworks/multidex" path="frameworks/multidex" remote="caf"/>
@@ -660,7 +660,7 @@
   <project groups="qcom-LA.UM.7.3-incoming,vendor" name="platform/vendor/google_easel" path="vendor/google_easel" remote="caf"/>
   <project name="platform/vendor/nxp/interfaces/opensource/nfc" path="vendor/nxp/opensource/interfaces/nfc" remote="caf"/>
   <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" remote="caf"/>
-  <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/commonsys/frameworks" remote="caf"/>
+  <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/commonsys/frameworks" remote="caf" clone-depth="1"/>
   <project name="platform/vendor/nxp/opensource/halimpl" path="vendor/nxp/opensource/halimpl" remote="caf"/>
   <project name="platform/vendor/nxp/opensource/hidlimpl" path="vendor/nxp/opensource/hidlimpl" remote="caf"/>
   <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" remote="caf"/>
