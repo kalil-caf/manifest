@@ -6,7 +6,13 @@
           review="codeaurora.org"
           revision="refs/tags/LA.UM.7.5.r1-04100-8x96.0"/>
 
-  <default remote="caf"/>
+  <!-- KAF -->
+  <remote fetch="https://github.com/Kalil-CAF/"
+          name="kaf"
+          revision="caf-9.0"/>
+
+
+  <default remote="kaf"/>
 
   <project groups="mirror,pdk,pdk-cw-fs" name="device/common" remote="caf"/>
   <project groups="mirror,pdk" name="device/generic/arm64" remote="caf"/>
