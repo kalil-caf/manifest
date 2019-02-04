@@ -11,6 +11,9 @@
           name="kaf"
           revision="caf-9.0"/>
 
+  <!-- Misc -->
+  <remote  name="github"
+           fetch="https://github.com/" />
 
   <default remote="kaf"/>
 
@@ -707,4 +710,12 @@
   <project name="platform/vendor/qcom/wlan" path="device/qcom/wlan" remote="caf"/>
   <project groups="mirror,pdk" name="toolchain/binutils" remote="caf"/>
   <project groups="mirror,pdk" name="toolchain/pgo-profiles" remote="caf"/>
+
+  <!-- Additional manifests-->
+
+  <!-- KAF -->
+  <include name="kaf.xml" />
+
+  <!-- Misc -->
+  <include name="misc.xml" />
 </manifest>
